@@ -1,0 +1,36 @@
+.item{
+    display: flex;
+    margin: 10rem 2rem;
+}
+.description{
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description p{
+    width:20vw;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.description:nth-child(even){
+    padding-left: 4rem;
+}
+.img-wrapper{
+    /* position: relative; */
+}
+.img-container{
+    width:60vw;
+    height: 90vh;
+   /* position: absolute;
+   top: 0;
+   left:0; */
+    /* position: sticky;
+    top: 0; */
+}
+.Background-fixed {
+    background-attachment: fixed;
+    background-position: center;
+}
