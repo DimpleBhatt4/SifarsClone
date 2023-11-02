@@ -28,7 +28,6 @@ export const MoreInfo = () => {
               backgroundImage: `url(${charity})`,
               backgroundPosition: "center center",
               backgroundSize: "cover",
-              backgroundAttachment:'fixed',
               backgroundRepeat:'no-repeat'
             }}
           ></div>
@@ -36,24 +35,14 @@ export const MoreInfo = () => {
       {/* Item 2 */}
       <div className="item item1">
         <div className="img-wrapper" style={{
-            //   backgroundImage: `url(${venueOMenu})`,
-            //   backgroundPosition: "center center",
-            //   backgroundSize: "cover",
-            //   backgroundAttachment:'fixed',
-            //   backgroundRepeat:'no-repeat',
-            //   position:'relative',
               overflow:'hidden'
             }}>
           <div
             className="img-container img1"
             style={{
-            //   position:'absolute',
-            //   top:'0',
-            //   left:'20%',
               backgroundImage: `url(${venueOMenu})`,
               backgroundPosition: "center center",
               backgroundSize: "cover",
-              backgroundAttachment:'fixed',
               backgroundRepeat:'no-repeat',
               
             }}
@@ -85,7 +74,6 @@ export const MoreInfo = () => {
               backgroundImage: `url(${gst})`,
               backgroundPosition: "center center",
               backgroundSize: "cover",
-              backgroundAttachment:'fixed',
               backgroundRepeat:'no-repeat'
             }}
           ></div>
@@ -100,7 +88,6 @@ export const MoreInfo = () => {
               backgroundImage: `url(${instaBot})`,
               backgroundPosition: "center center",
               backgroundSize: "cover",
-              backgroundAttachment:'fixed',
               backgroundRepeat:'no-repeat'
             }}
           ></div>
@@ -128,7 +115,6 @@ export const MoreInfo = () => {
             backgroundImage: `url(${itune})`,
             backgroundPosition: "center center",
               backgroundSize: "cover",
-              backgroundAttachment:'fixed',
               backgroundRepeat:'no-repeat'
           }}
         ></div>
@@ -142,7 +128,6 @@ export const MoreInfo = () => {
               backgroundImage: `url(${domotron})`,
               backgroundPosition: "center center",
               backgroundSize: "cover",
-              backgroundAttachment:'fixed',
               backgroundRepeat:'no-repeat'
             }}
           ></div>
@@ -168,7 +153,6 @@ export const MoreInfo = () => {
               backgroundImage: `url(${skincare})`,
               backgroundPosition: "center center",
               backgroundSize: "cover",
-              backgroundAttachment:'fixed',
               backgroundRepeat:'no-repeat'
             }}
           ></div>
@@ -183,7 +167,6 @@ export const MoreInfo = () => {
               backgroundImage: `url(${getConnect})`,
               backgroundPosition: "center center",
               backgroundSize: "cover",
-              backgroundAttachment:'fixed',
               backgroundRepeat:'no-repeat'
             }}
           ></div>
